@@ -1,0 +1,36 @@
+body{
+    font-family:monospace;
+    margin: 5;
+    padding: 0;
+    background-color: rgb(169, 235, 240);
+    font-size: large;
+}
+
+
+h1{
+    font-family: monospace;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* deixar em uma bolha */
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.profissoes {
+margin: 30px; 
+background-color: rgba(0, 217, 255, 0.267);
+border: 10px outset rgb(243, 242, 242);
+padding: 10px;      /* espço interno */
+text-align: center; /* justificar texto */
+border-radius: 10px;
+box-shadow:  0px 0px 20px rgba(25, 28, 34, 0.555);
+width: 20%;
+}
+
+img{
+    border-radius: 10px;
+}
